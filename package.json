@@ -1,0 +1,38 @@
+{
+  "name": "dreamwell",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js",
+    "clear": "node clear.js",
+    "clear-data": "node clear-data.js",
+    "clear-device": "node clear_device.js",
+    "device-register": "node device_register.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "abi-decoder": "^2.4.0",
+    "async-mutex": "^0.3.2",
+    "axios": "^0.23.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fs-extra": "^10.0.0",
+    "hex2dec": "^1.1.2",
+    "jquery": "^3.6.0",
+    "jsdom": "^18.0.0",
+    "like-web3": "^0.4.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.0.11",
+    "mongoose-auto-increment": "^5.0.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.0.0",
+    "web3": "^1.6.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
